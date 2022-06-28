@@ -55,9 +55,69 @@ Although it is not the only model out there, but i actually believe that it is t
 So let's dive into the steps but with out project explanation in mind. 
 
 ### 1.Business Understanding/Motivation/Questions 
-What do i want to accomplish? What are the questions, i want to find aswers to? What problem do i want to solve? What is my end goal?
+This phase could be summed as in the following questions:    
+* **What do i want to accomplish?** 
+* **What are the questions, i want to find answers to?**
+* **What problem do i want to solve? What is my end goal?**
+* **How exactly would i do it? What is my project plan**         
+
+The ***questions*** i want answers to are:                                
+* What is the most popular engine type?
+* What are the top fifteen used cars listed? 
+* What transmission type occurs more in used cars listed?
+* What effect engine size has on the price of the car?
+* Does the body type have any effect on the price?
+* Does the Model Year and Mileage have any effect on the price?
+* Does the Black color have any effect on the price?
+* Are hybrids expensive because they give more mileage per liter?           
+
+ The ultimate ***goal*** of the project is:                     
+ * What maximum price can i set for my Honda Civic 1.8 i-VTEC CVT 2016, automatic, black color car?                
+ * What other cars can I buy in that price range, and can i afford a hybrid one?                     
+ * Building a price prediction model.                                          
+
+Now we have well-defined problem and we know what we want to solve. But where is the data? Let me answer it in the next phase.                      
 
 ### 2.Data Understanding 
+**Data Set:**                  
+The datset can be found here.<nav><a href="https://www.kaggle.com/datasets/spideysloth/pakwheels-cars-dataset?resource=download&select=pakwheels-11Jul2020.csv"> PakWheels Used Cars for sale </a>                  
+
+The Data Set before cleaning has 56186 entries with 16 columns.              
+
+**Key Features of the Data Set:**      
+
+* **Ad No:-**  Unique ID given to every ad and will be set as index. 
+
+* **Name:-**  Name of the car being sold.       
+
+* **Price:-**  Price of the car in PKR.                          
+
+* **Model Year:-**  The year in which the car was manufactured.      
+
+* **Location:-**  The location where the car is being sold at.       
+
+* **Mileage:-**  How many KiloMeters has the car been driven.         
+
+* **Registered City:-**  In which city is the car registered in excise and taxation department.        
+
+* **Engine Type:-**  Petrol, Diesel and Hybrid.                                      
+
+* **Engine Capacity:-**  Engine size in cc e.g. 1800cc.                               
+
+* **Transmission:-**  Automatic or Manual transmission.                       
+
+* **Color:-**  Color of the car, e.g. black.                            
+
+* **Assembly:-**  Imported or locally assembled car.                            
+
+* **Body Type:-**  This feature identifies if a vehicle is a sedan, SUV or a mini-van etc. There are 17 unique values in this column.          
+
+* **Features:-**  For example, sunroof, automatic windows etc.                      
+
+* **Last Updated:-**  The date when the add was updated last time. We will drop this column.                          
+
+* **URL:-**  Link to the add. We will drop this column too.                     
+
 ### 3.Data Preparation/EDA/Questions Answered
 ### 4.Data Modeling/Price Prediction
 ### 5.Evaluation
