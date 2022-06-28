@@ -80,11 +80,12 @@ Now we have well-defined problem and we know what we want to solve. But where is
 
 ### 2.Data Understanding 
 **Data Set:**                  
-The datset can be found here.<nav><a href="https://www.kaggle.com/datasets/spideysloth/pakwheels-cars-dataset?resource=download&select=pakwheels-11Jul2020.csv"> PakWheels Used Cars for sale </a>                  
+The dataset can be found here.<nav><a href="https://www.kaggle.com/datasets/spideysloth/pakwheels-cars-dataset?resource=download&select=pakwheels-11Jul2020.csv"> PakWheels Used Cars for sale </a>                  
 
-The Data Set before cleaning has 56186 entries with 16 columns.              
+The Data Set before cleaning has 56186 entries with 16 columns.           
 
 **Key Features of the Data Set:**      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Data-Features.png)
 
 * **Ad No:-**  Unique ID given to every ad and will be set as index. 
 
@@ -118,7 +119,25 @@ The Data Set before cleaning has 56186 entries with 16 columns.
 
 * **URL:-**  Link to the add. We will drop this column too.                     
 
-### 3.Data Preparation/EDA/Questions Answered
+### 3.Data Preparation/EDA/Questions Answered   
+**Data Cleaning:**
+1) First, 'Ad No' was set as index.                       
+2) URL and Last Updated columns were dropped.                               
+3) There is 'call for price' in Price column, these values were dropped.                                                     
+4) Checked if NaN values could be replaced. NaN values in Features column were replaced with 'Unknown', in Engine Type with 'Petrol' and in Body Type with 'Hatchback'.                           
+5) Data types of some columns were changed to make them coherent with their values: Price and Engine Capacity column into float.                               
+6) Duplicates were removed using unique function in pandas.                                     
+7) Outliers in Price column were removed i.e. imported cars.                                    
+8) Rows with NaN values which could not be substituted were dropped.   
+
+**Exploratory Analysis:**                          
+
+**Q1. What is the most popular engine type?**                     
+ 
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Popular-EngineType.png)                      
+
+Most of the cars listed have Petrol driven engine. 
+
 ### 4.Data Modeling/Price Prediction
 ### 5.Evaluation
 ### 6.Deployment/Feedback
