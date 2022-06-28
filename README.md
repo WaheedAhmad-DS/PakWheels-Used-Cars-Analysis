@@ -196,9 +196,53 @@ I can buy a comparatively newer and less driven model of Toyota Aqua; a hatchbac
    
 I will probably buy Honda Vezel 🤫. 
 
-### 4.Data Modeling/Price Prediction
+### 4.Data Modeling/Price Prediction  
+I wanted to train a model which, when given with some specifications, will give us the estimated price of car. For modelling the data was normalized by using one hot encoding. I trained three models; Linear Regression, Polynomial regression,and Ridge regression.               
+
+The modelling phase can be summarized in the following steps:                        
+* **Model Selection:** It onvolves different ML algorithms. I tried three different models.                         
+* **Test Design:** Model test design was designed by splitting the data into training, test, validation sets, and cross-validation.                                
+* **Model Development:** The model was fitted using the data we cleaned. 
+* **Model Assessment:**  Models were assessed using various statistical techniques.                                              
+
+**1) Linear Regression**      
+
+**2) PolynomialFeatures**                              
+
+**3) Ridge Regression**                                     
+
+
 ### 5.Evaluation
-### 6.Deployment/Feedback
+**Technical Evaluation**                        
+
+Technical evaluation of the models have been done above where we found the accuracy measurements regarding all the three models.                         
+
+**Non-technical Evalution**                                                                                               
+
+***This is of utmost importnace. It can be described as below.***                                      
+
+* **Evaluating Results:** This involves evaluating the model concerning the buisness indicator. The data minig results should be rigorously assessed, probabaly in a controlled laboratory setting. Why? To gain confidence that they are reliable before moving to deployment phase.                                   
+
+* **Review Process:** From this phase we can go back to First phase and start the overall process again for better results and decision-making. What if we need more data? May be, all phases were not executed as they should have been, etc.                                                                                                                      
+
+*  **Next Steps:** The model may well be ready for deployment or may be iteration of the CRISP-DM methodolgy is required. Depending on the previous phases different decisions could be taken.                                                     
+
+**Evaluation of our project**                                      
+
+Technical evaluation of our Ridge regression model is near to accurate. But evaluation in the actual buisness context may reveal some failures. May be, we could scrape more data from the PakWheels website or anyother relevant source and try to iterate the whole process and then compare the results.                               
+
+### 6.Deployment/Feedback                                                           
+
+* It involves implementing a predictive model in some information system or buisness process.                                 
+
+* In our used car analysis example, price predicting model could be integrated with the buisness process on the PakWheels website. Visitors on the website or app could enter the specifications of the car and would get back the estimated price.                                                 
+
+***Note: The process often returns to the first phase of Buisness Understanding regardless of the success of deployment. A second iteration may produce improved solutions to the problems***
+
+
+
+
+***
 ## Conclusion/Final Impact of the Project
 ## Contact 
 
