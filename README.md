@@ -163,30 +163,38 @@ As I will buying a sedan, we can see below from the groupby function that automa
    
    
 **Q6. Does the Model Year and Mileage have any effect on the price of used cars?**                      
-![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)          
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Year%20and%20Price.png)                              
    
-Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.   
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Mileage%20and%20price.png) 
+   
+The price of a car tends to increase with the recent model years and it tends to decrease with the increase in Mileage.    
 
 **Q7. Does the Black color have any effect on the price of used cars?**                      
-![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
-
-Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.         
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/No%20of%20cars%20listes%20colorwise.png)                     
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Price%20based%20on%20Color.png)                 
+   
+In the first plot, it can be seen that more white colored cars are listed, although the price is usually more for the black colored cars as it can be seen from the above 2nd plot.          
 
 **Q8. Hybrids should be expensive because they give more mileage per litre, is it so?**                      
-![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Price%20based%20on%20Engine%20type.png)                     
 
-Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.          
+Although from Q1. it can be seen that petrol driven cars outnumber hybrids, but from the figure it is visible that hybrids are much more expensive than petrol or diesel based cars.          
    
 **Q9. What maximum price I can set for my Honda Civic 1.8 i-VTEC CVT 2016, automatic, black color car?**                      
-![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Maximum%20price.png)                     
 
-Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.              
+So the maximum price i can set is 3 Million PKR.                     
+   
+***Now let's see what can i buy in that price.*** 
 
 **Q10. What other cars can I buy in this price range, and can i afford a hybrid one?**                      
-![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Cars%20to%20buy.png)                     
 
-Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.      
+So what hybrids can i buy?                   
+
+I can buy a comparatively newer and less driven model of Toyota Aqua; a hatchback, or an older version of Honda Vezel (crossover) and Toyota Prius (sedan). 
    
+I will probably buy Honda Vezel 🤫. 
 
 ### 4.Data Modeling/Price Prediction
 ### 5.Evaluation
