@@ -237,12 +237,11 @@ Technical evaluation of our Ridge regression model is near to accurate. But eval
 
 * In our used car analysis example, price predicting model could be integrated with the buisness process on the PakWheels website. Visitors on the website or app could enter the specifications of the car and would get back the estimated price.                                                 
 
-***Note: The process often returns to the first phase of Buisness Understanding regardless of the success of deployment. A second iteration may produce improved solutions to the problems***
-
-
-
+***Note: The process often returns to the first phase of Buisness Understanding regardless of the success of deployment. A second iteration may produce improved solutions to the problems***                                                             
 
 ***
-## Conclusion/Final Impact of the Project
+## Conclusion/Final Impact of the Project                                                    
+* I found the best maximum price i could set 
+   
 ## Contact 
 
