@@ -132,11 +132,61 @@ The Data Set before cleaning has 56186 entries with 16 columns.
 
 **Exploratory Analysis:**                          
 
-**Q1. What is the most popular engine type?**                     
- 
-![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Popular-EngineType.png)                      
+**Q1. What is the most popular engine type?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Popular-fuel.png)                     
 
-Most of the cars listed have Petrol driven engine. 
+Most of the cars listed have Petrol driven engine.                              
+
+**Q2. What are the top fifteen used cars listed?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
+
+Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.  
+   
+**Q3. What transmission type occurs more in used cars listed?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Transmission%20Type.png)                     
+
+Manual type occurs more, although it is not clear here wether the price of manual is more than automatic. This will be revealed in Q. 5.         
+   
+**Q4. What effect engine size has on the price of used cars listed?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Price%20Based%20on%20Engine%20size.png)                     
+
+There is an overall increasing trend in the price with the increase of engine power.        
+   
+**Q5. Does the body type has any effect on the price of used cars?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Body-Type%20effect%20on%20price.png)                     
+
+The price of Crossover > SUV > Sedan > Hatchback.                               
+   * Side note: > means gretaer than.                                                                 
+   
+As I will buying a sedan, we can see below from the groupby function that automatic sedan is much more expensive than manual sedan.  
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Automatic%20vs.%20manual.png)                        
+   
+   
+**Q6. Does the Model Year and Mileage have any effect on the price of used cars?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)          
+   
+Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.   
+
+**Q7. Does the Black color have any effect on the price of used cars?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
+
+Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.         
+
+**Q8. Hybrids should be expensive because they give more mileage per litre, is it so?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
+
+Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.          
+   
+**Q9. What maximum price I can set for my Honda Civic 1.8 i-VTEC CVT 2016, automatic, black color car?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
+
+Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.              
+
+**Q10. What other cars can I buy in this price range, and can i afford a hybrid one?**                      
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
+
+Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.      
+   
 
 ### 4.Data Modeling/Price Prediction
 ### 5.Evaluation
