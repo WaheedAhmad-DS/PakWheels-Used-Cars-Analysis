@@ -9,8 +9,7 @@
     * [4.Data Modeling/Price Prediction](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#4data-modellingprice-prediction)     
     * [5.Evaluation](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#5evaluation)     
     * [6.Deployment/Feedback](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#6deploymentfeedback)
-* [Conclusion/Final Impact of the Project](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#conclusionfinal-impact-of-the-project)
-* [Contact](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#contact)  
+* [Conclusion/Final Impact of the Project](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#conclusionfinal-impact-of-the-project)  
 
 ## Introduction to Project 
 PakWheels is one of the biggest online marketplaces in Pakistan for buying and selling used cars.             
@@ -241,7 +240,8 @@ Technical evaluation of our Ridge regression model is near to accurate. But eval
 
 ***
 ## Conclusion/Final Impact of the Project                                                    
-* I found the best maximum price i could set 
-   
-## Contact 
+* I found the best maximum price i could set for my car. Also I found the best options available in hybrid version.                     
+
+* Price prediction model was also developed with more than 85 % accuracy, and the model can be deployed on the PakWheels site.                          
+  
 
