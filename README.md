@@ -6,7 +6,7 @@
     * [1.Business Understanding/Motivation/Questions](#1business-understandingmotivationquestions)      
     * [2.Data Understanding](#2data-understanding)      
     * [3.Data Preparation/EDA/Questions Answered](#3data-preparationedaquestions-answered)        
-    * [4.Data Modeling/Price Prediction](#4data-modellingprice-prediction)     
+    * [4.Data Modeling/Price Prediction](#4data-modelingprice-prediction)     
     * [5.Evaluation](#5evaluation)     
     * [6.Deployment/Feedback](#6deploymentfeedback)
 * [Conclusion/Final Impact of the Project](#conclusionfinal-impact-of-the-project)  
