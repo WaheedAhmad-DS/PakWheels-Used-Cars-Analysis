@@ -1,15 +1,15 @@
 ## PakWheels Used Cars Analysis and Price Prediction Model
 ## Table of Contents
 * [Introduction to Project](#introduction-to-project)
-* [Technologies Used](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#technologies-used)
-* [Project Explanation through CRISP Methodology](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#project-explanation-through-crisp-methodology)                
-    * [1.Business Understanding/Motivation/Questions](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#1business-understandingmotivationquestions)      
-    * [2.Data Understanding](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#2data-understanding)      
-    * [3.Data Preparation/EDA/Questions Answered](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#3data-preparationedaquestions-answered)        
-    * [4.Data Modeling/Price Prediction](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#4data-modellingprice-prediction)     
-    * [5.Evaluation](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#5evaluation)     
-    * [6.Deployment/Feedback](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#6deploymentfeedback)
-* [Conclusion/Final Impact of the Project](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#conclusionfinal-impact-of-the-project)  
+* [Technologies Used](#technologies-used)
+* [Project Explanation through CRISP Methodology](#project-explanation-through-crisp-methodology)                
+    * [1.Business Understanding/Motivation/Questions](#1business-understandingmotivationquestions)      
+    * [2.Data Understanding](#2data-understanding)      
+    * [3.Data Preparation/EDA/Questions Answered](#3data-preparationedaquestions-answered)        
+    * [4.Data Modeling/Price Prediction](#4data-modellingprice-prediction)     
+    * [5.Evaluation](#5evaluation)     
+    * [6.Deployment/Feedback](#6deploymentfeedback)
+* [Conclusion/Final Impact of the Project](#conclusionfinal-impact-of-the-project)  
 
 ## Introduction to Project 
 PakWheels is one of the biggest online marketplaces in Pakistan for buying and selling used cars.             
