@@ -204,13 +204,23 @@ The modelling phase can be summarized in the following steps:
 * **Model Development:** The model was fitted using the data we cleaned. 
 * **Model Assessment:**  Models were assessed using various statistical techniques.                                              
 
-**1) Linear Regression**      
+**1) Linear Regression**                                            
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/LinearRegression.png)                                   
 
-**2) PolynomialFeatures**                              
+The linear regression model gives 82% and 81.8% accuracy on training and testing data respectively.                                  
 
-**3) Ridge Regression**                                     
+**2) PolynomialFeatures**                                                               
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/PolynomialFeatures.png)                                     
 
+The polynomial regression model with degree of 2 gives 88.9% and 86.06% accuracy on training and testing data respectively.  
+   
+**3) Ridge Regression**                                                                                   
+![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/RidgeRegression.png)                                          
+   
+The ridge regression model with alpha value of 0.1 gives 81.8% and 82.03% accuracy on testing and training data respectively.               
 
+***Therefore, Polynomial Linear regression with degree of 2 is a better model because of its statistical accuracy.***
+   
 ### 5.Evaluation
 **Technical Evaluation**                        
 
