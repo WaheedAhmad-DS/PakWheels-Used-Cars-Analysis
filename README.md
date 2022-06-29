@@ -1,6 +1,6 @@
 ## PakWheels Used Cars Analysis and Price Prediction Model
 ## Table of Contents
-* [Introduction to Project](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#introduction-to-project)
+* [Introduction to Project](#introduction-to-project)
 * [Technologies Used](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#technologies-used)
 * [Project Explanation through CRISP Methodology](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#project-explanation-through-crisp-methodology)                
     * [1.Business Understanding/Motivation/Questions](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/edit/main/README.md#1business-understandingmotivationquestions)      
