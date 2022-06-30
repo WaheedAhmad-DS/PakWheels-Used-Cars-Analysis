@@ -27,6 +27,8 @@ Side note: I also like black colored cars 🤐.
 The answer will be revealed gradually in the steps below.
 ***
 
+[(Back to top)](#table-of-contents)  
+
 ## Technologies Used  
 A list of technologies used within the project:
 * Python
@@ -43,6 +45,8 @@ A list of technologies used within the project:
 * train_test_split, cross_val_score
 * r2_score, mean_absolute_error, mean_squared_error
 ***
+
+[(Back to top)](#table-of-contents)  
 
 ## Project Explanation through CRISP Methodology
 Cross Industry Standard Process for Data Mining (CRISP-DM) is a process, a methodology, or a framework developed by IBM. A data science team, whenever embarking on a new project, can implement this method for better results and ultimately successful decision-making at the end of the project. 
@@ -76,6 +80,8 @@ The ***questions*** i want answers to are:
  * Building a price prediction model.                                          
 
 Now we have well-defined problem and we know what we want to solve. But where is the data? Let me answer it in the next phase.                      
+
+[(Back to top)](#table-of-contents)  
 
 ### 2.Data Understanding 
 **Data Set:**                  
@@ -118,6 +124,8 @@ The Data Set before cleaning has 56186 entries with 16 columns.
 
 * **URL:-**  Link to the add. We will drop this column too.                     
 
+[(Back to top)](#table-of-contents)  
+
 ### 3.Data Preparation/EDA/Questions Answered   
 **Data Cleaning:**
 1) First, 'Ad No' was set as index.                       
@@ -129,6 +137,8 @@ The Data Set before cleaning has 56186 entries with 16 columns.
 7) Outliers in Price column were removed i.e. imported cars.                                    
 8) Rows with NaN values which could not be substituted were dropped.   
 
+[(Back to top)](#table-of-contents)  
+
 **Exploratory Analysis:**                          
 
 **Q1. What is the most popular engine type?**                      
@@ -136,21 +146,29 @@ The Data Set before cleaning has 56186 entries with 16 columns.
 
 Most of the cars listed have Petrol driven engine.                              
 
+[(Back to top)](#table-of-contents)  
+
 **Q2. What are the top fifteen used cars listed?**                      
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Top-15-Listed-Cars.png)                     
 
 Honda Civic, Toyota corollas and Suzuki Wagon Rs are the market dominating cars.  
-   
+ 
+[(Back to top)](#table-of-contents)  
+ 
 **Q3. What transmission type occurs more in used cars listed?**                      
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Transmission%20Type.png)                     
 
 Manual type occurs more, although it is not clear here wether the price of manual is more than automatic. This will be revealed in Q. 5.         
-   
+
+[(Back to top)](#table-of-contents)  
+
 **Q4. What effect engine size has on the price of used cars listed?**                      
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Price%20Based%20on%20Engine%20size.png)                     
 
 There is an overall increasing trend in the price with the increase of engine power.        
-   
+ 
+[(Back to top)](#table-of-contents)   
+ 
 **Q5. Does the body type has any effect on the price of used cars?**                      
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Body-Type%20effect%20on%20price.png)                     
 
@@ -160,7 +178,8 @@ The price of Crossover > SUV > Sedan > Hatchback.
 As I will buying a sedan, we can see below from the groupby function that automatic sedan is much more expensive than manual sedan.  
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Automatic%20vs.%20manual.png)                        
    
-   
+[(Back to top)](#table-of-contents)  
+
 **Q6. Does the Model Year and Mileage have any effect on the price of used cars?**                      
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Year%20and%20Price.png)                              
    
@@ -168,23 +187,31 @@ As I will buying a sedan, we can see below from the groupby function that automa
    
 The price of a car tends to increase with the recent model years and it tends to decrease with the increase in Mileage.    
 
+[(Back to top)](#table-of-contents)  
+
 **Q7. Does the Black color have any effect on the price of used cars?**                      
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/No%20of%20cars%20listes%20colorwise.png)                     
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Price%20based%20on%20Color.png)                 
    
 In the first plot, it can be seen that more white colored cars are listed, although the price is usually more for the black colored cars as it can be seen from the above 2nd plot.          
 
+[(Back to top)](#table-of-contents)  
+
 **Q8. Hybrids should be expensive because they give more mileage per litre, is it so?**                      
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Price%20based%20on%20Engine%20type.png)                     
 
 Although from Q1. it can be seen that petrol driven cars outnumber hybrids, but from the figure it is visible that hybrids are much more expensive than petrol or diesel based cars.          
-   
+
+[(Back to top)](#table-of-contents)  
+
 **Q9. What maximum price I can set for my Honda Civic 1.8 i-VTEC CVT 2016, automatic, black color car?**                      
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Maximum%20price.png)                     
 
 So the maximum price i can set is 3 Million PKR.                     
    
 ***Now let's see what can i buy in that price.*** 
+
+[(Back to top)](#table-of-contents)  
 
 **Q10. What other cars can I buy in this price range, and can i afford a hybrid one?**                      
 ![alt text](https://github.com/WaheedAhmad-DS/PakWheels-Used-Cars-Analysis/blob/main/Images/Cars%20to%20buy.png)                     
@@ -194,6 +221,8 @@ So what hybrids can i buy?
 I can buy a comparatively newer and less driven model of Toyota Aqua; a hatchback, or an older version of Honda Vezel (crossover) and Toyota Prius (sedan). 
    
 I will probably buy Honda Vezel 🤫. 
+
+[(Back to top)](#table-of-contents)  
 
 ### 4.Data Modeling/Price Prediction  
 I wanted to train a model which, when given with some specifications, will give us the estimated price of car. For modelling the data was normalized by using one hot encoding. I trained three models; Linear Regression, Polynomial regression,and Ridge regression.               
@@ -220,7 +249,9 @@ The polynomial regression model with degree of 2 gives 88.9% and 86.06% accuracy
 The ridge regression model with alpha value of 0.1 gives 81.8% and 82.03% accuracy on testing and training data respectively.               
 
 ***Therefore, Polynomial Linear regression with degree of 2 is a better model because of its statistical accuracy.***
-   
+
+[(Back to top)](#table-of-contents)  
+
 ### 5.Evaluation
 **Technical Evaluation**                        
 
@@ -240,6 +271,8 @@ Technical evaluation of the models have been done above where we found the accur
 
 Technical evaluation of our Ridge regression model is near to accurate. But evaluation in the actual buisness context may reveal some failures. May be, we could scrape more data from the PakWheels website or anyother relevant source and try to iterate the whole process and then compare the results.                               
 
+[(Back to top)](#table-of-contents)  
+
 ### 6.Deployment/Feedback                                                           
 
 * It involves implementing a predictive model in some information system or buisness process.                                 
@@ -249,9 +282,13 @@ Technical evaluation of our Ridge regression model is near to accurate. But eval
 ***Note: The process often returns to the first phase of Buisness Understanding regardless of the success of deployment. A second iteration may produce improved solutions to the problems***                                                             
 
 ***
+
+[(Back to top)](#table-of-contents)  
+
 ## Conclusion/Final Impact of the Project                                                    
 * I found the best maximum price i could set for my car. Also I found the best options available in hybrid version.                     
 
 * Price prediction model was also developed with more than 85 % accuracy, and the model can be deployed on the PakWheels site.                          
   
-
+[(Back to top)](#table-of-contents)  
+***
